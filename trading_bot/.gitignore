@@ -1,5 +1,7 @@
 .env
 logs/*.log
+!logs/market_order.log
+!logs/limit_order.log
 __pycache__/
 *.pyc
 *.pyo
